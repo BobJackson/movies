@@ -29,13 +29,13 @@ class MovieList extends React.Component {
         let books = this.state.covers.map((item) => {
             return (
                 <Col className="MovieContainer hvr-shrink mt-2" key={item.id}>
-                    <Image src={item.cover} key={item.id} rounded={true}/>
+                    <Image className="MovieCover" src={item.cover} key={item.id} rounded={true}/>
                 </Col>
             )
         });
 
         return (
-            <Row className="mt-2" md={2} lg={3}>
+            <Row className="mt-1" md={2} lg={3}>
                 {books}
             </Row>
         );

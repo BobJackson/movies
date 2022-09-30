@@ -1,7 +1,11 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+.MovieCover {
+    width: 100% !important;
 }
 
 .MovieContainer:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
